@@ -1,0 +1,91 @@
+/*
+css\sty.css
+folhas de estilo globais
+*/
+
+body{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    
+}
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+}
+a {
+    color:rgb(0, 240, 40);
+    text-decoration: double;
+}
+
+a:hover {
+    color: darkorchid;
+}
+
+#wrap {
+    /* Centraliza este elemento em relação ao elemento pai */
+    position: relative;
+    margin: auto;
+    background-color: rgb(3, 29, 17);
+    width: 100%;
+    max-width: 1080px;
+    height: 100%;
+}
+
+header{
+    margin: .5rem .5rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    display: block;
+    height: .4rem;
+    margin-right: 1rem;
+}
+
+header h1 {
+    margin: 0;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: .5px rgb(0, 255, 13);
+}
+
+nav {
+    margin: .5rem;
+    background-color: black;
+    display: flex;
+    gap: .5rem;
+    justify-items: end;
+      
+}
+
+nav a {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav a:hover {
+    background-color: rgb(0, 255, 0);
+    transition: .2s;
+    color: rgb(0, 0, 0);
+}
+
+nav i {
+    font-size: 2rem;
+    margin-bottom: .25rem;
+}
+
+nav a:first-child {
+    margin-right: auto;
+}
